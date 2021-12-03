@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_FirstCDCNumber</name>
+   <tag></tag>
+   <elementGuidId>c26cedab-812a-4a8b-ac28-626e832647f7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;ctl00_Body_gvMDOPreScreening_ctl02_lnkCDCNum&quot;)[count(. | //*[@id = 'ctl00_Body_gvMDOPreScreening_ctl02_lnkCDCNum']) = count(//*[@id = 'ctl00_Body_gvMDOPreScreening_ctl02_lnkCDCNum'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ctl00_Body_gvMDOPreScreening_ctl02_lnkCDCNum</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:__doPostBack('ctl00$Body$gvMDOPreScreening$ctl04$lnkCDCNum','')</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>C67110</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_Body_gvMDOPreScreening_ctl02_lnkCDCNum&quot;)</value>
+   </webElementProperties>
+</WebElementEntity>

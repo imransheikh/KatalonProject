@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_3</name>
+   <tag></tag>
+   <elementGuidId>cfc25a37-0b5a-4a0b-a86c-e70926ce80fe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;ctl00_Body_uiNoticeSummary&quot;)/tbody[1]/tr[@class=&quot;gridView-summary-pager&quot;]/td[1]/table[1]/tbody[1]/tr[1]/td[3]/span[1][count(. | //*[@href = concat('javascript:__doPostBack(' , &quot;'&quot; , 'ctl00$Body$uiNoticeSummary' , &quot;'&quot; , ',' , &quot;'&quot; , 'Page$3' , &quot;'&quot; , ')')]) = count(//*[@href = concat('javascript:__doPostBack(' , &quot;'&quot; , 'ctl00$Body$uiNoticeSummary' , &quot;'&quot; , ',' , &quot;'&quot; , 'Page$3' , &quot;'&quot; , ')')])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>3</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_Body_uiNoticeSummary&quot;)/tbody[1]/tr[@class=&quot;gridView-summary-pager&quot;]/td[1]/table[1]/tbody[1]/tr[1]/td[3]/span[1]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:__doPostBack('ctl00$Body$uiNoticeSummary','Page$3')</value>
+   </webElementProperties>
+</WebElementEntity>

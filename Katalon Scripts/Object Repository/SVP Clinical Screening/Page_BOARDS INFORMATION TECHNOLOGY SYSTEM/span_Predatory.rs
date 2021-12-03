@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Predatory</name>
+   <tag></tag>
+   <elementGuidId>bea099ba-bb72-41e0-bd48-6ebb70d86515</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;__tab_ctl00_Body_uiTabSVPDetails_uiTab6&quot;)/span[1][count(. | //span[(text() = 'Predatory' or . = 'Predatory')]) = count(//span[(text() = 'Predatory' or . = 'Predatory')])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Predatory</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__tab_ctl00_Body_uiTabSVPDetails_uiTab6&quot;)/span[1]</value>
+   </webElementProperties>
+</WebElementEntity>

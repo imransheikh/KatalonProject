@@ -1,0 +1,1333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Clemency Regression Testing" time="510.91" tests="6" failures="0" errors="0">
+   <testsuite name="Clemency Regression Testing" tests="6" failures="0" errors="0" time="510.91" timestamp="2020-08-31 15:01:36" hostname="MIGUEL.ODA - EIS10L111462.accounts.cdcr.ca.gov" id="Test Suites/Clemency Regression Testing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\miguel.oda\\Documents\\KatalonProjects\\Clemency Scripts\\Reports\\20200831_150130\\Clemency Regression Testing\\20200831_150130"/>
+         <property name="logFiles" value="C:\\Users\\miguel.oda\\Documents\\KatalonProjects\\Clemency Scripts\\Reports\\20200831_150130\\Clemency Regression Testing\\20200831_150130\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="MIGUEL.ODA - EIS10L111462.accounts.cdcr.ca.gov"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.2.205"/>
+         <property name="browser" value="Chrome 84.0.4147.135"/>
+         <property name="hostAddress" value="10.124.46.144"/>
+         <property name="sessionId" value="4a68e4726237ed75a9ace9fde3826b0d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=USE_SYSTEM, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=false }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Clemency Regression Testing/1-InitiateClemencyCase" time="99.579" classname="Test Cases/Clemency Regression Testing/1-InitiateClemencyCase" status="PASSED">
+         <system-out><![CDATA[2020-08-31 15:01:37 - [TEST_CASE][PASSED] - Test Cases/Clemency Regression Testing/1-InitiateClemencyCase: Test Cases/Clemency Regression Testing/1-InitiateClemencyCase
+
+2020-08-31 15:01:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-08-31 15:01:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-31 15:01:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-31 15:01:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-31 15:01:43 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2020-08-31 15:01:43 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2020-08-31 15:01:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-08-31 15:01:44 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-31 15:01:44 - [TEST_STEP][PASSED] - navigateToUrl(Url + "ngbits/clemency/support-staff"): Navigate to 'https://bits-demo/ngbits/clemency/support-staff' successfully
+
+2020-08-31 15:02:28 - [MESSAGE][PASSED] - Navigate to 'https://bits-demo/ngbits/clemency/support-staff' successfully
+
+2020-08-31 15:02:28 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ClemencyRegressionTesting/Support Staff/button_Initiate New Case"), 0): Object 'Object Repository/ClemencyRegressionTesting/Support Staff/button_Initiate New Case' is visible
+
+2020-08-31 15:02:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-08-31 15:02:47 - [MESSAGE][PASSED] - Object 'Object Repository/ClemencyRegressionTesting/Support Staff/button_Initiate New Case' is visible
+
+2020-08-31 15:02:47 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Support Staff/button_Initiate New Case")): Object: 'Object Repository/ClemencyRegressionTesting/Support Staff/button_Initiate New Case' is clicked on
+
+2020-08-31 15:02:48 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Support Staff/button_Initiate New Case' is clicked on
+
+2020-08-31 15:02:48 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Support Staff/div_Documents_mat-select-arrow")): Object: 'Object Repository/ClemencyRegressionTesting/Support Staff/div_Documents_mat-select-arrow' is clicked on
+
+2020-08-31 15:02:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Support Staff/div_Documents_mat-select-arrow' is clicked on
+
+2020-08-31 15:02:49 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Support Staff/span_Pardon (CR)")): Object: 'Object Repository/ClemencyRegressionTesting/Support Staff/span_Pardon (CR)' is clicked on
+
+2020-08-31 15:02:50 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Support Staff/span_Pardon (CR)' is clicked on
+
+2020-08-31 15:02:50 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Support Staff/div_Expedite")): Object: 'Object Repository/ClemencyRegressionTesting/Support Staff/div_Expedite' is clicked on
+
+2020-08-31 15:02:51 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Support Staff/div_Expedite' is clicked on
+
+2020-08-31 15:02:51 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Support Staff/div_Expedite_mat-select-arrow")): Object: 'Object Repository/ClemencyRegressionTesting/Support Staff/div_Expedite_mat-select-arrow' is clicked on
+
+2020-08-31 15:02:51 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Support Staff/div_Expedite_mat-select-arrow' is clicked on
+
+2020-08-31 15:02:51 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Support Staff/span_Single Felony")): Object: 'Object Repository/ClemencyRegressionTesting/Support Staff/span_Single Felony' is clicked on
+
+2020-08-31 15:02:52 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Support Staff/span_Single Felony' is clicked on
+
+2020-08-31 15:02:52 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Support Staff/div_Source_mat-select-arrow-wrapper")): Object: 'Object Repository/ClemencyRegressionTesting/Support Staff/div_Source_mat-select-arrow-wrapper' is clicked on
+
+2020-08-31 15:02:53 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Support Staff/div_Source_mat-select-arrow-wrapper' is clicked on
+
+2020-08-31 15:02:53 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Support Staff/span_Court")): Object: 'Object Repository/ClemencyRegressionTesting/Support Staff/span_Court' is clicked on
+
+2020-08-31 15:02:53 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Support Staff/span_Court' is clicked on
+
+2020-08-31 15:02:53 - [TEST_STEP][PASSED] - CDATE = SimpleDateFormat(MM-dd-yyyy).format(getInstance().getTime()): null
+
+2020-08-31 15:02:54 - [TEST_STEP][PASSED] - println("CurrentDate: " + CDATE): null
+
+2020-08-31 15:02:54 - [TEST_STEP][PASSED] - setText(findTestObject("ClemencyRegressionTesting/Support Staff/input_Source_receivedDate"), CDATE): Text '08-31-2020' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_Source_receivedDate'
+
+2020-08-31 15:02:55 - [MESSAGE][PASSED] - Text '08-31-2020' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_Source_receivedDate'
+
+2020-08-31 15:02:55 - [TEST_STEP][PASSED] - setText(findTestObject("ClemencyRegressionTesting/Support Staff/input_Personal Details_first-name"), "KatalonSW"): Text 'KatalonSW' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_Personal Details_first-name'
+
+2020-08-31 15:02:56 - [MESSAGE][PASSED] - Text 'KatalonSW' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_Personal Details_first-name'
+
+2020-08-31 15:02:56 - [TEST_STEP][PASSED] - setText(findTestObject("ClemencyRegressionTesting/Support Staff/input_MiddleName"), "K"): Text 'K' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_MiddleName'
+
+2020-08-31 15:02:57 - [MESSAGE][PASSED] - Text 'K' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_MiddleName'
+
+2020-08-31 15:02:57 - [TEST_STEP][PASSED] - setText(findTestObject("ClemencyRegressionTesting/Support Staff/input_LastName"), "Studio"): Text 'Studio' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_LastName'
+
+2020-08-31 15:02:58 - [MESSAGE][PASSED] - Text 'Studio' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_LastName'
+
+2020-08-31 15:02:58 - [TEST_STEP][PASSED] - setText(findTestObject("ClemencyRegressionTesting/Support Staff/input_DOB"), "2/5/1990"): Text '2/5/1990' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_DOB'
+
+2020-08-31 15:02:59 - [MESSAGE][PASSED] - Text '2/5/1990' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_DOB'
+
+2020-08-31 15:02:59 - [TEST_STEP][PASSED] - setText(findTestObject("ClemencyRegressionTesting/Support Staff/input_SSN"), "123456789"): Text '123456789' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_SSN'
+
+2020-08-31 15:03:00 - [MESSAGE][PASSED] - Text '123456789' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_SSN'
+
+2020-08-31 15:03:00 - [TEST_STEP][PASSED] - setText(findTestObject("ClemencyRegressionTesting/Support Staff/input_DateSignedByApplicant"), CDATE): Text '08-31-2020' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_DateSignedByApplicant'
+
+2020-08-31 15:03:01 - [MESSAGE][PASSED] - Text '08-31-2020' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_DateSignedByApplicant'
+
+2020-08-31 15:03:01 - [TEST_STEP][NOT_RUN] - setText(findTestObject("ClemencyRegressionTesting/Support Staff/input_Identifiers_mat-input-1"), "BH6732"): NOT_RUN: setText(findTestObject("ClemencyRegressionTesting/Support Staff/input_Identifiers_mat-input-1"), "BH6732")
+
+2020-08-31 15:03:01 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("ClemencyRegressionTesting/Support Staff/input_Identifiers_mat-input-1"), "BH6732")
+
+2020-08-31 15:03:01 - [TEST_STEP][PASSED] - setText(findTestObject("ClemencyRegressionTesting/Support Staff/input_CII"), "8800AC-879b"): Text '8800AC-879b' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_CII'
+
+2020-08-31 15:03:02 - [MESSAGE][PASSED] - Text '8800AC-879b' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_CII'
+
+2020-08-31 15:03:02 - [TEST_STEP][PASSED] - setText(findTestObject("ClemencyRegressionTesting/Support Staff/input_FBI"), "2345"): Text '2345' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_FBI'
+
+2020-08-31 15:03:02 - [MESSAGE][PASSED] - Text '2345' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_FBI'
+
+2020-08-31 15:03:02 - [TEST_STEP][PASSED] - setText(findTestObject("ClemencyRegressionTesting/Support Staff/input_Addresses_mat-input-19"), "222 Market Street"): Text '222 Market Street' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_Addresses_mat-input-19'
+
+2020-08-31 15:03:03 - [MESSAGE][PASSED] - Text '222 Market Street' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_Addresses_mat-input-19'
+
+2020-08-31 15:03:03 - [TEST_STEP][PASSED] - setText(findTestObject("ClemencyRegressionTesting/Support Staff/input_Residence Address_mat-input-20"), "San Francisco"): Text 'San Francisco' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_Residence Address_mat-input-20'
+
+2020-08-31 15:03:04 - [MESSAGE][PASSED] - Text 'San Francisco' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_Residence Address_mat-input-20'
+
+2020-08-31 15:03:04 - [TEST_STEP][PASSED] - setText(findTestObject("ClemencyRegressionTesting/Support Staff/input_City_mat-input-21"), "CA"): Text 'CA' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_City_mat-input-21'
+
+2020-08-31 15:03:05 - [MESSAGE][PASSED] - Text 'CA' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_City_mat-input-21'
+
+2020-08-31 15:03:05 - [TEST_STEP][PASSED] - setText(findTestObject("ClemencyRegressionTesting/Support Staff/input_Country_mat-input-22"), "95888"): Text '95888' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_Country_mat-input-22'
+
+2020-08-31 15:03:06 - [MESSAGE][PASSED] - Text '95888' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_Country_mat-input-22'
+
+2020-08-31 15:03:06 - [TEST_STEP][PASSED] - check(findTestObject("ClemencyRegressionTesting/Support Staff/div_Zip Code_mat-checkbox-inner-container")): Object 'Object Repository/ClemencyRegressionTesting/Support Staff/div_Zip Code_mat-checkbox-inner-container' is checked
+
+2020-08-31 15:03:06 - [MESSAGE][PASSED] - Object 'Object Repository/ClemencyRegressionTesting/Support Staff/div_Zip Code_mat-checkbox-inner-container' is checked
+
+2020-08-31 15:03:06 - [TEST_STEP][PASSED] - setText(findTestObject("ClemencyRegressionTesting/Support Staff/input_Phone Numbers  Email_mat-input-4"), "123-456-7890"): Text '123-456-7890' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_Phone Numbers  Email_mat-input-4'
+
+2020-08-31 15:03:08 - [MESSAGE][PASSED] - Text '123-456-7890' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_Phone Numbers  Email_mat-input-4'
+
+2020-08-31 15:03:08 - [TEST_STEP][PASSED] - setText(findTestObject("ClemencyRegressionTesting/Support Staff/input_WorkTelNum"), "9876543621"): Text '9876543621' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_WorkTelNum'
+
+2020-08-31 15:03:09 - [MESSAGE][PASSED] - Text '9876543621' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_WorkTelNum'
+
+2020-08-31 15:03:09 - [TEST_STEP][PASSED] - setText(findTestObject("ClemencyRegressionTesting/Support Staff/input_CellTelNum"), "3258741901"): Text '3258741901' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_CellTelNum'
+
+2020-08-31 15:03:10 - [MESSAGE][PASSED] - Text '3258741901' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_CellTelNum'
+
+2020-08-31 15:03:10 - [TEST_STEP][PASSED] - setText(findTestObject("ClemencyRegressionTesting/Support Staff/input_email"), "katalonstudio@ggmail.com"): Text 'katalonstudio@ggmail.com' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_email'
+
+2020-08-31 15:03:11 - [MESSAGE][PASSED] - Text 'katalonstudio@ggmail.com' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_email'
+
+2020-08-31 15:03:11 - [TEST_STEP][PASSED] - setText(findTestObject("ClemencyRegressionTesting/Support Staff/input_Jurisdiction"), "Los Angeles"): Text 'Los Angeles' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_Jurisdiction'
+
+2020-08-31 15:03:12 - [MESSAGE][PASSED] - Text 'Los Angeles' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_Jurisdiction'
+
+2020-08-31 15:03:12 - [TEST_STEP][PASSED] - setText(findTestObject("ClemencyRegressionTesting/Support Staff/input_CRNumber"), "1234"): Text '1234' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_CRNumber'
+
+2020-08-31 15:03:12 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_CRNumber'
+
+2020-08-31 15:03:12 - [TEST_STEP][PASSED] - setText(findTestObject("ClemencyRegressionTesting/Support Staff/input_CR_hearingDT"), CDATE): Text '08-31-2020' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_CR_hearingDT'
+
+2020-08-31 15:03:13 - [MESSAGE][PASSED] - Text '08-31-2020' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_CR_hearingDT'
+
+2020-08-31 15:03:13 - [TEST_STEP][PASSED] - setText(findTestObject("ClemencyRegressionTesting/Support Staff/input_JudgeFirstName"), "Judge Katalon"): Text 'Judge Katalon' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_JudgeFirstName'
+
+2020-08-31 15:03:14 - [MESSAGE][PASSED] - Text 'Judge Katalon' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_JudgeFirstName'
+
+2020-08-31 15:03:14 - [TEST_STEP][PASSED] - setText(findTestObject("ClemencyRegressionTesting/Support Staff/input_JudgeLastName"), "Studio"): Text 'Studio' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_JudgeLastName'
+
+2020-08-31 15:03:15 - [MESSAGE][PASSED] - Text 'Studio' is set on object 'Object Repository/ClemencyRegressionTesting/Support Staff/input_JudgeLastName'
+
+2020-08-31 15:03:15 - [TEST_STEP][NOT_RUN] - verifyElementPresent(findTestObject("ClemencyRegressionTesting/Support Staff/div_JudgeNotLegible"), 2): NOT_RUN: verifyElementPresent(findTestObject("ClemencyRegressionTesting/Support Staff/div_JudgeNotLegible"), 2)
+
+2020-08-31 15:03:15 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent(findTestObject("ClemencyRegressionTesting/Support Staff/div_JudgeNotLegible"), 2)
+
+2020-08-31 15:03:15 - [TEST_STEP][NOT_RUN] - comment("Validate 'Date Signed by Applicant' is cleared and disabled if user checks 'Date Not Available'."): NOT_RUN: comment("Validate 'Date Signed by Applicant' is cleared and disabled if user checks 'Date Not Available'.")
+
+2020-08-31 15:03:15 - [MESSAGE][NOT_RUN] - NOT_RUN: comment("Validate 'Date Signed by Applicant' is cleared and disabled if user checks 'Date Not Available'.")
+
+2020-08-31 15:03:15 - [TEST_STEP][NOT_RUN] - click(findTestObject("ClemencyRegressionTesting/Support Staff/div_DateNotAvailable_mat-checkbox-inner-container")): NOT_RUN: click(findTestObject("ClemencyRegressionTesting/Support Staff/div_DateNotAvailable_mat-checkbox-inner-container"))
+
+2020-08-31 15:03:15 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("ClemencyRegressionTesting/Support Staff/div_DateNotAvailable_mat-checkbox-inner-container"))
+
+2020-08-31 15:03:15 - [TEST_STEP][NOT_RUN] - setText(findTestObject("ClemencyRegressionTesting/Support Staff/input_DateSignedByApplicant"), CDATE, CONTINUE_ON_FAILURE): NOT_RUN: setText(findTestObject("ClemencyRegressionTesting/Support Staff/input_DateSignedByApplicant"), CDATE, CONTINUE_ON_FAILURE)
+
+2020-08-31 15:03:15 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("ClemencyRegressionTesting/Support Staff/input_DateSignedByApplicant"), CDATE, CONTINUE_ON_FAILURE)
+
+2020-08-31 15:03:15 - [TEST_STEP][NOT_RUN] - comment("Validate "Judge" First Name and Last name are cleared and disabled is user checks 'Not Legible'."): NOT_RUN: comment("Validate "Judge" First Name and Last name are cleared and disabled is user checks 'Not Legible'.")
+
+2020-08-31 15:03:15 - [MESSAGE][NOT_RUN] - NOT_RUN: comment("Validate "Judge" First Name and Last name are cleared and disabled is user checks 'Not Legible'.")
+
+2020-08-31 15:03:15 - [TEST_STEP][NOT_RUN] - click(findTestObject("ClemencyRegressionTesting/Support Staff/div_NotLegible_mat-checkbox-inner-container")): NOT_RUN: click(findTestObject("ClemencyRegressionTesting/Support Staff/div_NotLegible_mat-checkbox-inner-container"))
+
+2020-08-31 15:03:15 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("ClemencyRegressionTesting/Support Staff/div_NotLegible_mat-checkbox-inner-container"))
+
+2020-08-31 15:03:15 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Support Staff/button_Save")): Object: 'Object Repository/ClemencyRegressionTesting/Support Staff/button_Save' is clicked on
+
+2020-08-31 15:03:16 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Support Staff/button_Save' is clicked on
+
+2020-08-31 15:03:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-08-31 15:03:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Clemency Regression Testing/2-SupportStaffEntryComplete" time="66.506" classname="Test Cases/Clemency Regression Testing/2-SupportStaffEntryComplete" status="PASSED">
+         <system-out><![CDATA[2020-08-31 15:03:16 - [TEST_CASE][PASSED] - Test Cases/Clemency Regression Testing/2-SupportStaffEntryComplete: Test Cases/Clemency Regression Testing/2-SupportStaffEntryComplete
+
+2020-08-31 15:03:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-08-31 15:03:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-31 15:03:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-31 15:03:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-31 15:03:19 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2020-08-31 15:03:19 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2020-08-31 15:03:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-08-31 15:03:20 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-31 15:03:20 - [TEST_STEP][PASSED] - navigateToUrl(Url + "ngbits/clemency/support-staff"): Navigate to 'https://bits-demo/ngbits/clemency/support-staff' successfully
+
+2020-08-31 15:03:55 - [MESSAGE][PASSED] - Navigate to 'https://bits-demo/ngbits/clemency/support-staff' successfully
+
+2020-08-31 15:03:55 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ClemencyRegressionTesting/Supervisor Dashboard/table_PendingAssignment"), 0): Object 'Object Repository/ClemencyRegressionTesting/Supervisor Dashboard/table_PendingAssignment' is visible
+
+2020-08-31 15:03:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-08-31 15:04:15 - [MESSAGE][PASSED] - Object 'Object Repository/ClemencyRegressionTesting/Supervisor Dashboard/table_PendingAssignment' is visible
+
+2020-08-31 15:04:15 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-08-31 15:04:15 - [TEST_STEP][PASSED] - ExpectedValue = "KatalonSW": null
+
+2020-08-31 15:04:15 - [TEST_STEP][PASSED] - Table = driver.findElement(By.xpath("id("cdk-accordion-child-0")/div[@class="mat-expansion-panel-body"]/mdt-dynamic-table[1]/table[@class="mat-table"]")): null
+
+2020-08-31 15:04:15 - [TEST_STEP][PASSED] - rows_table = Table.findElements(By.tagName("tr")): null
+
+2020-08-31 15:04:15 - [TEST_STEP][PASSED] - rows_count = rows_table.size(): null
+
+2020-08-31 15:04:15 - [TEST_STEP][PASSED] - for ([row = 0, row < rows_count, (row++)]): null
+
+2020-08-31 15:04:15 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-08-31 15:04:16 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-08-31 15:04:16 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-08-31 15:04:16 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-08-31 15:04:16 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-08-31 15:04:16 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-08-31 15:04:16 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:04:16 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:04:16 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:04:16 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:04:16 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:04:16 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:04:16 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:04:16 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:04:16 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:04:16 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:04:16 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:04:16 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:04:16 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:04:16 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:04:16 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-08-31 15:04:16 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-08-31 15:04:16 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-08-31 15:04:16 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:04:16 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:04:16 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:04:16 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:04:16 - [TEST_STEP][PASSED] - CaseID = get(0).getText(): null
+
+2020-08-31 15:04:16 - [TEST_STEP][PASSED] - println("Case ID: " + CaseID): null
+
+2020-08-31 15:04:16 - [TEST_STEP][PASSED] - tagName("button")).click(): null
+
+2020-08-31 15:04:17 - [TEST_STEP][PASSED] - break: null
+
+2020-08-31 15:04:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ClemencyRegressionTesting/Support Staff/button_Entry Complete"), 0): Object 'Object Repository/ClemencyRegressionTesting/Support Staff/button_Entry Complete' is visible
+
+2020-08-31 15:04:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-08-31 15:04:19 - [MESSAGE][PASSED] - Object 'Object Repository/ClemencyRegressionTesting/Support Staff/button_Entry Complete' is visible
+
+2020-08-31 15:04:19 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Support Staff/button_Entry Complete")): Object: 'Object Repository/ClemencyRegressionTesting/Support Staff/button_Entry Complete' is clicked on
+
+2020-08-31 15:04:19 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Support Staff/button_Entry Complete' is clicked on
+
+2020-08-31 15:04:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-08-31 15:04:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-31 15:04:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-08-31 15:04:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Clemency Regression Testing/3-SupervisorAssignCase" time="73.891" classname="Test Cases/Clemency Regression Testing/3-SupervisorAssignCase" status="PASSED">
+         <system-out><![CDATA[2020-08-31 15:04:23 - [TEST_CASE][PASSED] - Test Cases/Clemency Regression Testing/3-SupervisorAssignCase: Test Cases/Clemency Regression Testing/3-SupervisorAssignCase
+
+2020-08-31 15:04:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-08-31 15:04:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-31 15:04:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-31 15:04:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-31 15:04:26 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2020-08-31 15:04:26 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2020-08-31 15:04:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-08-31 15:04:27 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-31 15:04:27 - [TEST_STEP][PASSED] - navigateToUrl(Url + "ngbits/clemency/supervisor"): Navigate to 'https://bits-demo/ngbits/clemency/supervisor' successfully
+
+2020-08-31 15:05:07 - [MESSAGE][PASSED] - Navigate to 'https://bits-demo/ngbits/clemency/supervisor' successfully
+
+2020-08-31 15:05:07 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ClemencyRegressionTesting/Supervisor Dashboard/table_PendingAssignment"), 0): Object 'Object Repository/ClemencyRegressionTesting/Supervisor Dashboard/table_PendingAssignment' is visible
+
+2020-08-31 15:05:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-08-31 15:05:30 - [MESSAGE][PASSED] - Object 'Object Repository/ClemencyRegressionTesting/Supervisor Dashboard/table_PendingAssignment' is visible
+
+2020-08-31 15:05:30 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-08-31 15:05:30 - [TEST_STEP][PASSED] - ExpectedValue = "KatalonSW": null
+
+2020-08-31 15:05:30 - [TEST_STEP][PASSED] - Table = driver.findElement(By.xpath("id("cdk-accordion-child-0")/div[@class="mat-expansion-panel-body"]/mdt-dynamic-table[1]/table[@class="mat-table"]")): null
+
+2020-08-31 15:05:30 - [TEST_STEP][PASSED] - rows_table = Table.findElements(By.tagName("tr")): null
+
+2020-08-31 15:05:30 - [TEST_STEP][PASSED] - rows_count = rows_table.size(): null
+
+2020-08-31 15:05:30 - [TEST_STEP][PASSED] - for ([row = 0, row < rows_count, (row++)]): null
+
+2020-08-31 15:05:30 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-08-31 15:05:31 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-08-31 15:05:31 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-08-31 15:05:31 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-08-31 15:05:31 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-08-31 15:05:31 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-08-31 15:05:31 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:05:31 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:05:31 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:05:31 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:05:31 - [TEST_STEP][PASSED] - CaseID = get(0).getText(): null
+
+2020-08-31 15:05:31 - [TEST_STEP][PASSED] - println("Case ID: " + CaseID): null
+
+2020-08-31 15:05:31 - [TEST_STEP][PASSED] - tagName("span")).click(): null
+
+2020-08-31 15:05:31 - [TEST_STEP][PASSED] - xpath("//*[text()=' MIGUEL ODA ']")).click(): null
+
+2020-08-31 15:05:32 - [TEST_STEP][PASSED] - tagName("button")).click(): null
+
+2020-08-31 15:05:33 - [TEST_STEP][PASSED] - break: null
+
+2020-08-31 15:05:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-08-31 15:05:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-31 15:05:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-08-31 15:05:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Clemency Regression Testing/4-InvestigatorSignReview" time="104.262" classname="Test Cases/Clemency Regression Testing/4-InvestigatorSignReview" status="PASSED">
+         <system-out><![CDATA[2020-08-31 15:05:37 - [TEST_CASE][PASSED] - Test Cases/Clemency Regression Testing/4-InvestigatorSignReview: Test Cases/Clemency Regression Testing/4-InvestigatorSignReview
+
+2020-08-31 15:05:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-08-31 15:05:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-31 15:05:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-31 15:05:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-31 15:05:40 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2020-08-31 15:05:40 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2020-08-31 15:05:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-08-31 15:05:41 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-31 15:05:41 - [TEST_STEP][PASSED] - navigateToUrl(Url + "ngbits/clemency/investigator"): Navigate to 'https://bits-demo/ngbits/clemency/investigator' successfully
+
+2020-08-31 15:06:27 - [MESSAGE][PASSED] - Navigate to 'https://bits-demo/ngbits/clemency/investigator' successfully
+
+2020-08-31 15:06:27 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/button_Open"), 0): Object 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/button_Open' is visible
+
+2020-08-31 15:06:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-08-31 15:06:46 - [MESSAGE][PASSED] - Object 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/button_Open' is visible
+
+2020-08-31 15:06:46 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-08-31 15:06:46 - [TEST_STEP][PASSED] - ExpectedValue = "KatalonSW": null
+
+2020-08-31 15:06:46 - [TEST_STEP][PASSED] - Table = driver.findElement(By.xpath("id("cdk-accordion-child-0")/div[@class="mat-expansion-panel-body"]/mdt-dynamic-table[1]/table[@class="mat-table"]")): null
+
+2020-08-31 15:06:46 - [TEST_STEP][PASSED] - rows_table = Table.findElements(By.tagName("tr")): null
+
+2020-08-31 15:06:46 - [TEST_STEP][PASSED] - rows_count = rows_table.size(): null
+
+2020-08-31 15:06:46 - [TEST_STEP][PASSED] - for ([row = 0, row < rows_count, (row++)]): null
+
+2020-08-31 15:06:46 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-08-31 15:06:47 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-08-31 15:06:47 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-08-31 15:06:47 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-08-31 15:06:47 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-08-31 15:06:47 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-08-31 15:06:47 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:06:47 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:06:47 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:06:47 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:06:47 - [TEST_STEP][PASSED] - CaseID = get(0).getText(): null
+
+2020-08-31 15:06:47 - [TEST_STEP][PASSED] - println("Case ID: " + CaseID): null
+
+2020-08-31 15:06:47 - [TEST_STEP][PASSED] - tagName("button")).click(): null
+
+2020-08-31 15:06:47 - [TEST_STEP][PASSED] - break: null
+
+2020-08-31 15:06:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/div_COR_Yes"), STOP_ON_FAILURE): Object 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_COR_Yes' is visible
+
+2020-08-31 15:06:49 - [MESSAGE][PASSED] - Object 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_COR_Yes' is visible
+
+2020-08-31 15:06:49 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/div_COR_Yes")): Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_COR_Yes' is clicked on
+
+2020-08-31 15:06:50 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_COR_Yes' is clicked on
+
+2020-08-31 15:06:50 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/div_COR_Yes")): Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_COR_Yes' is clicked on
+
+2020-08-31 15:06:50 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_COR_Yes' is clicked on
+
+2020-08-31 15:06:50 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/div_DA_Yes")): Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_DA_Yes' is clicked on
+
+2020-08-31 15:06:51 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_DA_Yes' is clicked on
+
+2020-08-31 15:06:51 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/div_DA_No")): Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_DA_No' is clicked on
+
+2020-08-31 15:06:52 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_DA_No' is clicked on
+
+2020-08-31 15:06:52 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/div_IM_Yes")): Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_IM_Yes' is clicked on
+
+2020-08-31 15:06:52 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_IM_Yes' is clicked on
+
+2020-08-31 15:06:52 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/div_IM_No")): Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_IM_No' is clicked on
+
+2020-08-31 15:06:53 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_IM_No' is clicked on
+
+2020-08-31 15:06:53 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/div_IM_NA")): Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_IM_NA' is clicked on
+
+2020-08-31 15:06:53 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_IM_NA' is clicked on
+
+2020-08-31 15:06:53 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/div_ER_Yes")): Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_ER_Yes' is clicked on
+
+2020-08-31 15:06:54 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_ER_Yes' is clicked on
+
+2020-08-31 15:06:54 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/div_ER_Yes")): Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_ER_Yes' is clicked on
+
+2020-08-31 15:06:55 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_ER_Yes' is clicked on
+
+2020-08-31 15:06:55 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/div_OD_Yes")): Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_OD_Yes' is clicked on
+
+2020-08-31 15:06:56 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_OD_Yes' is clicked on
+
+2020-08-31 15:06:56 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/div_OD_NO")): Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_OD_NO' is clicked on
+
+2020-08-31 15:06:56 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_OD_NO' is clicked on
+
+2020-08-31 15:06:56 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/div_OD_NA")): Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_OD_NA' is clicked on
+
+2020-08-31 15:06:57 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_OD_NA' is clicked on
+
+2020-08-31 15:06:57 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/div_OD_Unknown")): Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_OD_Unknown' is clicked on
+
+2020-08-31 15:06:57 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_OD_Unknown' is clicked on
+
+2020-08-31 15:06:57 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/div_BPHIV-CII_Yes")): Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_BPHIV-CII_Yes' is clicked on
+
+2020-08-31 15:06:58 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_BPHIV-CII_Yes' is clicked on
+
+2020-08-31 15:06:58 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/div_BPHIV-FBI_Yes")): Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_BPHIV-FBI_Yes' is clicked on
+
+2020-08-31 15:06:59 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_BPHIV-FBI_Yes' is clicked on
+
+2020-08-31 15:06:59 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/div_BPHIV-FBI_Yes")): Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_BPHIV-FBI_Yes' is clicked on
+
+2020-08-31 15:06:59 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_BPHIV-FBI_Yes' is clicked on
+
+2020-08-31 15:06:59 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/div_BPHIV-DMV_Yes")): Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_BPHIV-DMV_Yes' is clicked on
+
+2020-08-31 15:07:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_BPHIV-DMV_Yes' is clicked on
+
+2020-08-31 15:07:00 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/div_BPHIV-NLETS_No")): Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_BPHIV-NLETS_No' is clicked on
+
+2020-08-31 15:07:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_BPHIV-NLETS_No' is clicked on
+
+2020-08-31 15:07:00 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/div_BPHIV-Lexis_No")): Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_BPHIV-Lexis_No' is clicked on
+
+2020-08-31 15:07:01 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_BPHIV-Lexis_No' is clicked on
+
+2020-08-31 15:07:01 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/div_BPHIV-According_No")): Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_BPHIV-According_No' is clicked on
+
+2020-08-31 15:07:02 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_BPHIV-According_No' is clicked on
+
+2020-08-31 15:07:02 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/div_BPHIV-Recomm_Yes")): Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_BPHIV-Recomm_Yes' is clicked on
+
+2020-08-31 15:07:02 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_BPHIV-Recomm_Yes' is clicked on
+
+2020-08-31 15:07:02 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/div_BPHIV-Opposit_No")): Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_BPHIV-Opposit_No' is clicked on
+
+2020-08-31 15:07:03 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_BPHIV-Opposit_No' is clicked on
+
+2020-08-31 15:07:03 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/div_BPHIV-Concerns_Unknown")): Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_BPHIV-Concerns_Unknown' is clicked on
+
+2020-08-31 15:07:04 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_BPHIV-Concerns_Unknown' is clicked on
+
+2020-08-31 15:07:04 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/div_BPHIV-Tel_Unknown")): Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_BPHIV-Tel_Unknown' is clicked on
+
+2020-08-31 15:07:04 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_BPHIV-Tel_Unknown' is clicked on
+
+2020-08-31 15:07:04 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/div_CH-Arrests_No")): Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_CH-Arrests_No' is clicked on
+
+2020-08-31 15:07:05 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_CH-Arrests_No' is clicked on
+
+2020-08-31 15:07:05 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/div_CH-Arrests_No")): Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_CH-Arrests_No' is clicked on
+
+2020-08-31 15:07:05 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_CH-Arrests_No' is clicked on
+
+2020-08-31 15:07:05 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/div_CH-Conv_No")): Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_CH-Conv_No' is clicked on
+
+2020-08-31 15:07:06 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_CH-Conv_No' is clicked on
+
+2020-08-31 15:07:06 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/div_CH-Conv_NA")): Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_CH-Conv_NA' is clicked on
+
+2020-08-31 15:07:07 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_CH-Conv_NA' is clicked on
+
+2020-08-31 15:07:07 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/div_CH-SexOff_No")): Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_CH-SexOff_No' is clicked on
+
+2020-08-31 15:07:07 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/div_CH-SexOff_No' is clicked on
+
+2020-08-31 15:07:07 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/button_AddConvictions")): Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/button_AddConvictions' is clicked on
+
+2020-08-31 15:07:08 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/button_AddConvictions' is clicked on
+
+2020-08-31 15:07:08 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/button_ConvictionModal_Add Conviction"), 0): Object 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/button_ConvictionModal_Add Conviction' is visible
+
+2020-08-31 15:07:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-08-31 15:07:08 - [MESSAGE][PASSED] - Object 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/button_ConvictionModal_Add Conviction' is visible
+
+2020-08-31 15:07:08 - [TEST_STEP][PASSED] - setText(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/input_ConvitionModal_Case"), "C88000"): Text 'C88000' is set on object 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/input_ConvitionModal_Case'
+
+2020-08-31 15:07:09 - [MESSAGE][PASSED] - Text 'C88000' is set on object 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/input_ConvitionModal_Case'
+
+2020-08-31 15:07:09 - [TEST_STEP][PASSED] - setText(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/input_ConvitionModal_Enh"), "No"): Text 'No' is set on object 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/input_ConvitionModal_Enh'
+
+2020-08-31 15:07:10 - [MESSAGE][PASSED] - Text 'No' is set on object 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/input_ConvitionModal_Enh'
+
+2020-08-31 15:07:10 - [TEST_STEP][PASSED] - setText(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/input_ConvictionModal_Code"), "BP10238.6"): Text 'BP10238.6' is set on object 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/input_ConvictionModal_Code'
+
+2020-08-31 15:07:11 - [MESSAGE][PASSED] - Text 'BP10238.6' is set on object 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/input_ConvictionModal_Code'
+
+2020-08-31 15:07:11 - [TEST_STEP][PASSED] - setText(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/input_ConvitionModal_Jurisdiction"), "Sacramento"): Text 'Sacramento' is set on object 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/input_ConvitionModal_Jurisdiction'
+
+2020-08-31 15:07:13 - [MESSAGE][PASSED] - Text 'Sacramento' is set on object 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/input_ConvitionModal_Jurisdiction'
+
+2020-08-31 15:07:13 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/button_ConvictionModal_Add Conviction")): Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/button_ConvictionModal_Add Conviction' is clicked on
+
+2020-08-31 15:07:13 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/button_ConvictionModal_Add Conviction' is clicked on
+
+2020-08-31 15:07:13 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/button_ConvictionModal_close")): Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/button_ConvictionModal_close' is clicked on
+
+2020-08-31 15:07:15 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/button_ConvictionModal_close' is clicked on
+
+2020-08-31 15:07:15 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/button_Review Complete")): Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/button_Review Complete' is clicked on
+
+2020-08-31 15:07:16 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/button_Review Complete' is clicked on
+
+2020-08-31 15:07:16 - [TEST_STEP][PASSED] - setText(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/textarea_SignModal_Comment"), "This is a comment by the Supervisor signing a Review"): Text 'This is a comment by the Supervisor signing a Review' is set on object 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/textarea_SignModal_Comment'
+
+2020-08-31 15:07:18 - [MESSAGE][PASSED] - Text 'This is a comment by the Supervisor signing a Review' is set on object 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/textarea_SignModal_Comment'
+
+2020-08-31 15:07:18 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Investigator Dashboard/button_SignModal_ReviewComplete")): Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/button_SignModal_ReviewComplete' is clicked on
+
+2020-08-31 15:07:18 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Investigator Dashboard/button_SignModal_ReviewComplete' is clicked on
+
+2020-08-31 15:07:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-08-31 15:07:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-31 15:07:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-08-31 15:07:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Clemency Regression Testing/5-SupervisorApprovesReview" time="81.023" classname="Test Cases/Clemency Regression Testing/5-SupervisorApprovesReview" status="PASSED">
+         <system-out><![CDATA[2020-08-31 15:07:21 - [TEST_CASE][PASSED] - Test Cases/Clemency Regression Testing/5-SupervisorApprovesReview: Test Cases/Clemency Regression Testing/5-SupervisorApprovesReview
+
+2020-08-31 15:07:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-08-31 15:07:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-31 15:07:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-31 15:07:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-31 15:07:24 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2020-08-31 15:07:24 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2020-08-31 15:07:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-08-31 15:07:25 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-31 15:07:25 - [TEST_STEP][PASSED] - navigateToUrl(Url + "ngbits/clemency/supervisor"): Navigate to 'https://bits-demo/ngbits/clemency/supervisor' successfully
+
+2020-08-31 15:08:08 - [MESSAGE][PASSED] - Navigate to 'https://bits-demo/ngbits/clemency/supervisor' successfully
+
+2020-08-31 15:08:08 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ClemencyRegressionTesting/Supervisor Dashboard/table_PendingAssignment"), 0): Object 'Object Repository/ClemencyRegressionTesting/Supervisor Dashboard/table_PendingAssignment' is visible
+
+2020-08-31 15:08:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-08-31 15:08:27 - [MESSAGE][PASSED] - Object 'Object Repository/ClemencyRegressionTesting/Supervisor Dashboard/table_PendingAssignment' is visible
+
+2020-08-31 15:08:27 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-08-31 15:08:27 - [TEST_STEP][PASSED] - ExpectedValue = "KatalonSW": null
+
+2020-08-31 15:08:27 - [TEST_STEP][PASSED] - Table = driver.findElement(By.xpath("//div[2]/div/mat-expansion-panel/div/div/mdt-dynamic-table/table")): null
+
+2020-08-31 15:08:28 - [TEST_STEP][PASSED] - rows_table = Table.findElements(By.tagName("tr")): null
+
+2020-08-31 15:08:28 - [TEST_STEP][PASSED] - rows_count = rows_table.size(): null
+
+2020-08-31 15:08:28 - [TEST_STEP][PASSED] - for ([row = 0, row < rows_count, (row++)]): null
+
+2020-08-31 15:08:28 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-08-31 15:08:28 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-08-31 15:08:28 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-08-31 15:08:28 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-08-31 15:08:28 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-08-31 15:08:28 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-08-31 15:08:28 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:28 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:28 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:28 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:28 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:28 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:28 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:28 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:28 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:28 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:28 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:29 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:30 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:31 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-08-31 15:08:32 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-08-31 15:08:32 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-08-31 15:08:32 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:32 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:32 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:32 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:32 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:32 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:32 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:32 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:32 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:32 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:32 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:32 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:32 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:32 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:32 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:32 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:32 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-08-31 15:08:32 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-08-31 15:08:32 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-08-31 15:08:32 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:32 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:32 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:08:32 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:08:32 - [TEST_STEP][PASSED] - CaseID = get(0).getText(): null
+
+2020-08-31 15:08:32 - [TEST_STEP][PASSED] - println("Case ID: " + CaseID): null
+
+2020-08-31 15:08:32 - [TEST_STEP][PASSED] - tagName("button")).click(): null
+
+2020-08-31 15:08:32 - [TEST_STEP][PASSED] - break: null
+
+2020-08-31 15:08:32 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Supervisor Dashboard/button_Sign")): Object: 'Object Repository/ClemencyRegressionTesting/Supervisor Dashboard/button_Sign' is clicked on
+
+2020-08-31 15:08:35 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Supervisor Dashboard/button_Sign' is clicked on
+
+2020-08-31 15:08:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ClemencyRegressionTesting/Supervisor Dashboard/textarea_SignModal_Comment"), 0): Object 'Object Repository/ClemencyRegressionTesting/Supervisor Dashboard/textarea_SignModal_Comment' is visible
+
+2020-08-31 15:08:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-08-31 15:08:36 - [MESSAGE][PASSED] - Object 'Object Repository/ClemencyRegressionTesting/Supervisor Dashboard/textarea_SignModal_Comment' is visible
+
+2020-08-31 15:08:36 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Supervisor Dashboard/div_ SignModal_SupportRecommendation")): Object: 'Object Repository/ClemencyRegressionTesting/Supervisor Dashboard/div_ SignModal_SupportRecommendation' is clicked on
+
+2020-08-31 15:08:36 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Supervisor Dashboard/div_ SignModal_SupportRecommendation' is clicked on
+
+2020-08-31 15:08:36 - [TEST_STEP][PASSED] - setText(findTestObject("ClemencyRegressionTesting/Supervisor Dashboard/textarea_SignModal_Comment"), "This is a comment by the Supervisor signing a Review"): Text 'This is a comment by the Supervisor signing a Review' is set on object 'Object Repository/ClemencyRegressionTesting/Supervisor Dashboard/textarea_SignModal_Comment'
+
+2020-08-31 15:08:39 - [MESSAGE][PASSED] - Text 'This is a comment by the Supervisor signing a Review' is set on object 'Object Repository/ClemencyRegressionTesting/Supervisor Dashboard/textarea_SignModal_Comment'
+
+2020-08-31 15:08:39 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Supervisor Dashboard/button_SignModalSubmit to Executive")): Object: 'Object Repository/ClemencyRegressionTesting/Supervisor Dashboard/button_SignModalSubmit to Executive' is clicked on
+
+2020-08-31 15:08:39 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Supervisor Dashboard/button_SignModalSubmit to Executive' is clicked on
+
+2020-08-31 15:08:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-08-31 15:08:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-31 15:08:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-08-31 15:08:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Clemency Regression Testing/6-ExecutiveSignsReview" time="85.259" classname="Test Cases/Clemency Regression Testing/6-ExecutiveSignsReview" status="PASSED">
+         <system-out><![CDATA[2020-08-31 15:08:42 - [TEST_CASE][PASSED] - Test Cases/Clemency Regression Testing/6-ExecutiveSignsReview: Test Cases/Clemency Regression Testing/6-ExecutiveSignsReview
+
+2020-08-31 15:08:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-08-31 15:08:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-31 15:08:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-31 15:08:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-31 15:08:45 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2020-08-31 15:08:45 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2020-08-31 15:08:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-08-31 15:08:46 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-31 15:08:46 - [TEST_STEP][PASSED] - navigateToUrl(Url + "ngbits/clemency/executive-staff"): Navigate to 'https://bits-demo/ngbits/clemency/executive-staff' successfully
+
+2020-08-31 15:09:33 - [MESSAGE][PASSED] - Navigate to 'https://bits-demo/ngbits/clemency/executive-staff' successfully
+
+2020-08-31 15:09:33 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ClemencyRegressionTesting/Executive Dashboard/table_Executive_ReviewApprovals"), 0): Object 'Object Repository/ClemencyRegressionTesting/Executive Dashboard/table_Executive_ReviewApprovals' is visible
+
+2020-08-31 15:09:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-08-31 15:09:54 - [MESSAGE][PASSED] - Object 'Object Repository/ClemencyRegressionTesting/Executive Dashboard/table_Executive_ReviewApprovals' is visible
+
+2020-08-31 15:09:54 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-08-31 15:09:54 - [TEST_STEP][PASSED] - ExpectedValue = "KatalonSW": null
+
+2020-08-31 15:09:54 - [TEST_STEP][PASSED] - Table = driver.findElement(By.xpath("id("cdk-accordion-child-0")/div[@class="mat-expansion-panel-body"]/mdt-dynamic-table[1]/table[@class="mat-table"]")): null
+
+2020-08-31 15:09:54 - [TEST_STEP][PASSED] - rows_table = Table.findElements(By.tagName("tr")): null
+
+2020-08-31 15:09:55 - [TEST_STEP][PASSED] - rows_count = rows_table.size(): null
+
+2020-08-31 15:09:55 - [TEST_STEP][PASSED] - for ([row = 0, row < rows_count, (row++)]): null
+
+2020-08-31 15:09:55 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-08-31 15:09:55 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-08-31 15:09:55 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-08-31 15:09:55 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-08-31 15:09:55 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-08-31 15:09:55 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-08-31 15:09:55 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:09:55 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:09:55 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:09:55 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:09:55 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:09:55 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:09:55 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:09:55 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:09:55 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:09:55 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:09:55 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:09:55 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:09:55 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:09:55 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:09:55 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:09:55 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:09:55 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:09:55 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:09:55 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-08-31 15:09:55 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-08-31 15:09:55 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-08-31 15:09:55 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:09:55 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:09:55 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:09:55 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:09:55 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - CaseID = get(0).getText(): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - println("Case ID: " + CaseID): null
+
+2020-08-31 15:09:56 - [TEST_STEP][PASSED] - tagName("button")).click(): null
+
+2020-08-31 15:09:57 - [TEST_STEP][PASSED] - break: null
+
+2020-08-31 15:09:57 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Executive Dashboard/button_Sign")): Object: 'Object Repository/ClemencyRegressionTesting/Executive Dashboard/button_Sign' is clicked on
+
+2020-08-31 15:10:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Executive Dashboard/button_Sign' is clicked on
+
+2020-08-31 15:10:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ClemencyRegressionTesting/Executive Dashboard/textarea_ExecutiveModal_Comment"), 0): Object 'Object Repository/ClemencyRegressionTesting/Executive Dashboard/textarea_ExecutiveModal_Comment' is visible
+
+2020-08-31 15:10:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-08-31 15:10:01 - [MESSAGE][PASSED] - Object 'Object Repository/ClemencyRegressionTesting/Executive Dashboard/textarea_ExecutiveModal_Comment' is visible
+
+2020-08-31 15:10:01 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Executive Dashboard/div_ ExecutiveModal_SupportRecomm")): Object: 'Object Repository/ClemencyRegressionTesting/Executive Dashboard/div_ ExecutiveModal_SupportRecomm' is clicked on
+
+2020-08-31 15:10:02 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Executive Dashboard/div_ ExecutiveModal_SupportRecomm' is clicked on
+
+2020-08-31 15:10:02 - [TEST_STEP][PASSED] - setText(findTestObject("ClemencyRegressionTesting/Executive Dashboard/textarea_ExecutiveModal_Comment"), "This is a comment by the  Executive signing a Review"): Text 'This is a comment by the  Executive signing a Review' is set on object 'Object Repository/ClemencyRegressionTesting/Executive Dashboard/textarea_ExecutiveModal_Comment'
+
+2020-08-31 15:10:04 - [MESSAGE][PASSED] - Text 'This is a comment by the  Executive signing a Review' is set on object 'Object Repository/ClemencyRegressionTesting/Executive Dashboard/textarea_ExecutiveModal_Comment'
+
+2020-08-31 15:10:04 - [TEST_STEP][PASSED] - click(findTestObject("ClemencyRegressionTesting/Executive Dashboard/button_ExecutiveModal_SubmitToGO")): Object: 'Object Repository/ClemencyRegressionTesting/Executive Dashboard/button_ExecutiveModal_SubmitToGO' is clicked on
+
+2020-08-31 15:10:05 - [MESSAGE][PASSED] - Object: 'Object Repository/ClemencyRegressionTesting/Executive Dashboard/button_ExecutiveModal_SubmitToGO' is clicked on
+
+2020-08-31 15:10:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-08-31 15:10:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-31 15:10:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-08-31 15:10:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-31 15:01:36 - [TEST_SUITE][PASSED] - Clemency Regression Testing: Test Cases/Clemency Regression Testing/6-ExecutiveSignsReview]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

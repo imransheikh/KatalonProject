@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_ctl00BodyTabstpCDCRDSHEvaltcPrelimFinalEvaltpPrelimEvaluiPrelimCDCREvaluatorDate</name>
+   <tag></tag>
+   <elementGuidId>990b1591-ef90-4c86-8ee4-a042f9cfaf54</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;ctl00_Body_Tabs_tpCDCRDSHEval_tcPrelimFinalEval_tpPrelimEval_uiPrelimCDCREvaluatorDate&quot;)[count(. | //input[@name = 'ctl00$Body$Tabs$tpCDCRDSHEval$tcPrelimFinalEval$tpPrelimEval$uiPrelimCDCREvaluatorDate' and @class = 'size-date MaskedEditFocus' and @id = 'ctl00_Body_Tabs_tpCDCRDSHEval_tcPrelimFinalEval_tpPrelimEval_uiPrelimCDCREvaluatorDate' and @type = 'text' and @nospell = 'true']) = count(//input[@name = 'ctl00$Body$Tabs$tpCDCRDSHEval$tcPrelimFinalEval$tpPrelimEval$uiPrelimCDCREvaluatorDate' and @class = 'size-date MaskedEditFocus' and @id = 'ctl00_Body_Tabs_tpCDCRDSHEval_tcPrelimFinalEval_tpPrelimEval_uiPrelimCDCREvaluatorDate' and @type = 'text' and @nospell = 'true'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>ctl00$Body$Tabs$tpCDCRDSHEval$tcPrelimFinalEval$tpPrelimEval$uiPrelimCDCREvaluatorDate</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>size-date MaskedEditFocus</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ctl00_Body_Tabs_tpCDCRDSHEval_tcPrelimFinalEval_tpPrelimEval_uiPrelimCDCREvaluatorDate</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>nospell</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_Body_Tabs_tpCDCRDSHEval_tcPrelimFinalEval_tpPrelimEval_uiPrelimCDCREvaluatorDate&quot;)</value>
+   </webElementProperties>
+</WebElementEntity>

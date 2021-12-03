@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Yes_ctl00BodyuiTabuiTabResponseuirblstResponseRequired</name>
+   <tag></tag>
+   <elementGuidId>b1220271-8e17-426c-ba71-8d225202fa4a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;ctl00_Body_uiTab_uiTabResponse_uirblstResponseRequired_0&quot;)[count(. | //*[@name = 'ctl00$Body$uiTab$uiTabResponse$uirblstResponseRequired' and @id = 'ctl00_Body_uiTab_uiTabResponse_uirblstResponseRequired_0' and @onclick = concat('javascript:setTimeout(' , &quot;'&quot; , '__doPostBack(\' , &quot;'&quot; , 'ctl00$Body$uiTab$uiTabResponse$uirblstResponseRequired$0\' , &quot;'&quot; , ',\' , &quot;'&quot; , '\' , &quot;'&quot; , ')' , &quot;'&quot; , ', 0)') and @type = 'radio']) = count(//*[@name = 'ctl00$Body$uiTab$uiTabResponse$uirblstResponseRequired' and @id = 'ctl00_Body_uiTab_uiTabResponse_uirblstResponseRequired_0' and @onclick = concat('javascript:setTimeout(' , &quot;'&quot; , '__doPostBack(\' , &quot;'&quot; , 'ctl00$Body$uiTab$uiTabResponse$uirblstResponseRequired$0\' , &quot;'&quot; , ',\' , &quot;'&quot; , '\' , &quot;'&quot; , ')' , &quot;'&quot; , ', 0)') and @type = 'radio'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>ctl00$Body$uiTab$uiTabResponse$uirblstResponseRequired</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ctl00_Body_uiTab_uiTabResponse_uirblstResponseRequired_0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>javascript:setTimeout('__doPostBack(\'ctl00$Body$uiTab$uiTabResponse$uirblstResponseRequired$0\',\'\')', 0)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>radio</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Y</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_Body_uiTab_uiTabResponse_uirblstResponseRequired_0&quot;)</value>
+   </webElementProperties>
+</WebElementEntity>

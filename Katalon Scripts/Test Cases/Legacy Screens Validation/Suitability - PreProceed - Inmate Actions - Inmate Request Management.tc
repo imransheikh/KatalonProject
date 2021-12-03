@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Suitability>Pre-Proceeding Actions>Inmate Actions>Inmate Request Management>Pending All</description>
+   <name>Suitability - PreProceed - Inmate Actions - Inmate Request Management</name>
+   <tag></tag>
+   <comment>Institution Summary - PENDING ALL </comment>
+   <testCaseGuid>f7ab9849-20ba-4833-a9c8-e295585e735d</testCaseGuid>
+</TestCaseEntity>

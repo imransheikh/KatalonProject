@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_ctl00BodyuibtnScreeningRpt</name>
+   <tag></tag>
+   <elementGuidId>e87397cf-e4b0-4d8d-ade5-541466b210b7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;ctl00_Body_uibtnScreeningRpt&quot;)[count(. | //*[@name = 'ctl00$Body$uibtnScreeningRpt' and @id = 'ctl00_Body_uibtnScreeningRpt' and @onclick = concat('javascript:newWin(' , &quot;'&quot; , '/Bits/reportServer/reportServer.aspx?cmdkey=/BITS/STAGE/FORMS/clinical_screening_svp+p_eval_id=5596+p_cdc_num=BB6193' , &quot;'&quot; , ',' , &quot;'&quot; , 'BAR' , &quot;'&quot; , '); return false;') and @value = 'Generate Clinical Report']) = count(//*[@name = 'ctl00$Body$uibtnScreeningRpt' and @id = 'ctl00_Body_uibtnScreeningRpt' and @onclick = concat('javascript:newWin(' , &quot;'&quot; , '/Bits/reportServer/reportServer.aspx?cmdkey=/BITS/STAGE/FORMS/clinical_screening_svp+p_eval_id=5596+p_cdc_num=BB6193' , &quot;'&quot; , ',' , &quot;'&quot; , 'BAR' , &quot;'&quot; , '); return false;') and @value = 'Generate Clinical Report'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>ctl00$Body$uibtnScreeningRpt</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-default size-200px</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ctl00_Body_uibtnScreeningRpt</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>javascript:newWin('/Bits/reportServer/reportServer.aspx?cmdkey=/BITS/STAGE/FORMS/clinical_screening_svp+p_eval_id=5538+p_cdc_num=F45615','BAR'); return false;</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Generate Clinical Report</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_Body_uibtnScreeningRpt&quot;)</value>
+   </webElementProperties>
+</WebElementEntity>

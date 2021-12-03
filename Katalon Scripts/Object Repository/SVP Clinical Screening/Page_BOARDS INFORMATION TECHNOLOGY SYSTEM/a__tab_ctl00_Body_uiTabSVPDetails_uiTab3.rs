@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a__tab_ctl00_Body_uiTabSVPDetails_uiTab3</name>
+   <tag></tag>
+   <elementGuidId>d1cbb13b-e1eb-4707-be8d-5dabc9d989bb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;__tab_ctl00_Body_uiTabSVPDetails_uiTab3&quot;)[count(. | //a[@id = '__tab_ctl00_Body_uiTabSVPDetails_uiTab3']) = count(//a[@id = '__tab_ctl00_Body_uiTabSVPDetails_uiTab3'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ajax__tab_tab</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>__tab_ctl00_Body_uiTabSVPDetails_uiTab3</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__tab_ctl00_Body_uiTabSVPDetails_uiTab3&quot;)</value>
+   </webElementProperties>
+</WebElementEntity>

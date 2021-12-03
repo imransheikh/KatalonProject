@@ -1,0 +1,40 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser(GlobalVariable.Url + '/Bits/BPHADMIN/MISCELLANEOUS/IDLMANAGEMENT.ASPX')
+
+WebUI.maximizeWindow()
+
+WebUI.selectOptionByLabel(findTestObject('BITS/Suitability-CR Document Mgmt System/select_ctl00BodyuiCategoroyDdl'), 'Select', 
+    false)
+
+WebUI.sendKeys(findTestObject('BITS/Suitability-CR Document Mgmt System/select_ctl00BodyuiCategoroyDdl'), Keys.chord(Keys.ENTER))
+
+WebUI.delay(15)
+
+'Institution Summary'
+CRDMSSelect = WebUI.getText(findTestObject('BITS/Suitability-CR Document Mgmt System/InstitutionSummary'))
+
+CustomKeywords.'myPack.WriteExcel.demoKey'(CRDMSSelect, 'Suitability>Post-Proceed>CR Document Mgmt System>Type: Select')
+
+CRDMS_Select = WebUI.concatenate(((['Suitability>Post-Proceed>Legal Further Review>Not Reviewed: ', CRDMSSelect]) as String[]))
+
+println(CRDMS_Select)
+
+WebUI.delay(1)
+
+WebUI.closeBrowser()
+

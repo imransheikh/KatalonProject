@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pardon CR Single F WORKS GOOD</name>
+   <tag></tag>
+   <comment>Validate 'Date Signed by Applicant' is cleared and disabled if user checks 'Date Not Available'.
+Validate &quot;Judge&quot; First Name and Last name are cleared and disabled is user checks 'Not Legible'.</comment>
+   <testCaseGuid>eb619710-9e90-49bb-ba69-e564804c9ecc</testCaseGuid>
+</TestCaseEntity>

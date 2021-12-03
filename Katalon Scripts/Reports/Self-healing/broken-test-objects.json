@@ -1,0 +1,52 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/A Folder/Page_/span_MIGUEL ODA",
+      "brokenLocator": "//span[(text() \u003d \u0027MIGUEL ODA\u0027 or . \u003d \u0027MIGUEL ODA\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u0027MIGUEL ODA\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/A Folder/Page_/span_MIGUEL ODA_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/A Folder/Page_/div_Yes_mat-radio-outer-circle",
+      "brokenLocator": "id(\"mat-radio-56\")/label[@class\u003d\"mat-radio-label\"]/div[@class\u003d\"mat-radio-container\"]/div[@class\u003d\"mat-radio-outer-circle\"][count(. | //*[(text() \u003d \u0027Yes\u0027 or . \u003d \u0027Yes\u0027)]) \u003d count(//*[(text() \u003d \u0027Yes\u0027 or . \u003d \u0027Yes\u0027)])]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//mat-radio-button[@id\u003d\u0027mat-radio-56\u0027]/label/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/A Folder/Page_/div_Yes_mat-radio-outer-circle_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/ClemencyRegressionTesting/Supervisor Dashboard/table_ReviewApprovals",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Review Approvals\u0027])[1]/following::table[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/ClemencyRegressionTesting/Supervisor Dashboard/table_ReviewApprovals_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/ClemencyRegressionTesting/Supervisor Dashboard/table_Review Approvals",
+      "brokenLocator": "//div[@id\u003d\u0027cdk-accordion-child-20\u0027]/div/mdt-dynamic-table/table",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Review Approvals\u0027])[1]/following::table[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/ClemencyRegressionTesting/Supervisor Dashboard/table_Review Approvals_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/A Folder/Page_/div_ SignModal_SupportRecommendation",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Recommendation:\u0027])[1]/following::div[9]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/A Folder/Page_/div_ SignModal_SupportRecommendation_neighbor.png"
+    }
+  ]
+}

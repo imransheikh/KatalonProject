@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_ctl00BodyuiIptTabsuiMainTabuiBirthCountry</name>
+   <tag></tag>
+   <elementGuidId>50c99ec4-afbf-4113-b4a8-030d85a76bea</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;ctl00_Body_uiIptTabs_uiMainTab_uiBirthCountry&quot;)[count(. | //select[@name = 'ctl00$Body$uiIptTabs$uiMainTab$uiBirthCountry' and @class = 'size-150px' and @id = 'ctl00_Body_uiIptTabs_uiMainTab_uiBirthCountry']) = count(//select[@name = 'ctl00$Body$uiIptTabs$uiMainTab$uiBirthCountry' and @class = 'size-150px' and @id = 'ctl00_Body_uiIptTabs_uiMainTab_uiBirthCountry'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>ctl00$Body$uiIptTabs$uiMainTab$uiBirthCountry</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>size-150px</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ctl00_Body_uiIptTabs_uiMainTab_uiBirthCountry</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_Body_uiIptTabs_uiMainTab_uiBirthCountry&quot;)</value>
+   </webElementProperties>
+</WebElementEntity>

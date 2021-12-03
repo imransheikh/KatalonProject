@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Suitability>Pre-Proceed>ADACU Audit Management>Pending</description>
+   <name>Suitability - PreProceed - ADACU Audit Management</name>
+   <tag></tag>
+   <comment>Institution Summary - PENDING </comment>
+   <testCaseGuid>6594dc8e-19c9-4184-a403-cb760fa17140</testCaseGuid>
+</TestCaseEntity>

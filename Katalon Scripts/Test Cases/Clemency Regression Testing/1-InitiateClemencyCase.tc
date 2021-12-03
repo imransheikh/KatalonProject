@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1-InitiateClemencyCase</name>
+   <tag></tag>
+   <comment>Validate 'Date Signed by Applicant' is cleared and disabled if user checks 'Date Not Available'.
+Validate &quot;Judge&quot; First Name and Last name are cleared and disabled is user checks 'Not Legible'.</comment>
+   <testCaseGuid>8d3341f7-a6d5-47b3-a088-4640d86eb17b</testCaseGuid>
+</TestCaseEntity>

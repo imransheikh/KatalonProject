@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_ctl00BodyTabstpChiefPsychCertDoesMeet</name>
+   <tag></tag>
+   <elementGuidId>285f2a40-c302-43bb-bbe6-b7d3cfeb5def</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;ctl00_Body_Tabs_tpChiefCert_rbChiefEvalYes&quot;)[count(. | //input[@name = 'ctl00$Body$Tabs$tpChiefCert$rbChiefEvalYes' and @id = 'ctl00_Body_Tabs_tpChiefCert_rbChiefEvalYes']) = count(//input[@name = 'ctl00$Body$Tabs$tpChiefCert$rbChiefEvalYes' and @id = 'ctl00_Body_Tabs_tpChiefCert_rbChiefEvalYes'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>ctl00$Body$Tabs$tpChiefCert$rbChiefEvalYes</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>disabled</name>
+      <type>Main</type>
+      <value>disabled</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ctl00_Body_Tabs_tpChiefCert_rbChiefEvalYes</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_Body_Tabs_tpChiefCert_rbChiefEvalYes&quot;)</value>
+   </webElementProperties>
+</WebElementEntity>

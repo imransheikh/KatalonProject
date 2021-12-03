@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Review</name>
+   <tag></tag>
+   <elementGuidId>0d16991e-8212-42bf-99cc-9d078677a348</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;uiGvSvpCases&quot;)/tbody[1]/tr[2]/td[13]/a[1][count(. | //*[@href = concat('javascript:__doPostBack(' , &quot;'&quot; , 'ctl00$Body$uiGvSvpCases' , &quot;'&quot; , ',' , &quot;'&quot; , 'Select$0' , &quot;'&quot; , ')')]) = count(//*[@href = concat('javascript:__doPostBack(' , &quot;'&quot; , 'ctl00$Body$uiGvSvpCases' , &quot;'&quot; , ',' , &quot;'&quot; , 'Select$0' , &quot;'&quot; , ')')])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:__doPostBack('ctl00$Body$uiGvSvpCases','Select$0')</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Review</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;uiGvSvpCases&quot;)/tbody[1]/tr[2]/td[13]/a[1]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_21</name>
+   <tag></tag>
+   <elementGuidId>cdd26052-408f-4520-b38b-6792f83dc1d5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;ctl00_Body_uiTabSVPDetails_uiTab7_ucStatic99RCtrl_uiReleaseDtCE_day_3_2&quot;)[count(. | //div[@title = 'Tuesday, May 22, 2019' and @id = 'ctl00_Body_uiTabSVPDetails_uiTab7_ucStatic99RCtrl_uiReleaseDtCE_day_3_2']) = count(//div[@title = 'Tuesday, May 22, 2019' and @id = 'ctl00_Body_uiTabSVPDetails_uiTab7_ucStatic99RCtrl_uiReleaseDtCE_day_3_2'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Tuesday, May 22, 2019</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ajax__calendar_day</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ctl00_Body_uiTabSVPDetails_uiTab7_ucStatic99RCtrl_uiReleaseDtCE_day_3_2</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>21</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_Body_uiTabSVPDetails_uiTab7_ucStatic99RCtrl_uiReleaseDtCE_day_3_2&quot;)</value>
+   </webElementProperties>
+</WebElementEntity>

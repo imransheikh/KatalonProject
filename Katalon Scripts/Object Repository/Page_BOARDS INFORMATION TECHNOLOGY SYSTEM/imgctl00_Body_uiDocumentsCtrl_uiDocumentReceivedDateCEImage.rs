@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>imgctl00_Body_uiDocumentsCtrl_uiDocumentReceivedDateCEImage</name>
+   <tag></tag>
+   <elementGuidId>81359836-3b8a-44c9-9600-8a3d289f5536</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;ctl00_Body_uiDocumentsCtrl_uiDocumentReceivedDateCEImage&quot;)[count(. | //img[@id = 'ctl00_Body_uiDocumentsCtrl_uiDocumentReceivedDateCEImage' and @alt = 'Calendar' and @src = '../images/calendar.GIF']) = count(//img[@id = 'ctl00_Body_uiDocumentsCtrl_uiDocumentReceivedDateCEImage' and @alt = 'Calendar' and @src = '../images/calendar.GIF'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ctl00_Body_uiDocumentsCtrl_uiDocumentReceivedDateCEImage</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Calendar</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>../images/calendar.GIF</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_Body_uiDocumentsCtrl_uiDocumentReceivedDateCEImage&quot;)</value>
+   </webElementProperties>
+</WebElementEntity>
